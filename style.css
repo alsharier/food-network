@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font-family: 'Rubik', sans-serif;
+    font-family:'Montserrat', sans-serif; ;
 }
 #header {
     display: flex;
@@ -8,11 +8,15 @@ body{
 }
 .header-part-text{
     width: 50%;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .header-part-text h1{
-    font-size: 40px;
+    font-weight: bold;
+    font-size: 50px;
     color: #575757;
+    letter-spacing: -0.02em;
+    font-family: 'Rubik', sans-serif;
+    line-height: 50%;
 }
 .header-part-text span{
     color: #fa9249;
