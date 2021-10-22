@@ -19,7 +19,7 @@ body{
     font-family: 'Rubik', sans-serif;
     line-height: 50%;
 }
-.header-part-text span{
+span{
     color: #fa9249;
 }
 .header-part-text p{
@@ -72,4 +72,61 @@ font-size: 40px;
 .about-text p {
     line-height: 30px;
 }
-    
+#recipie {
+    padding: 5% 5%;
+}
+.recipie-text{
+    color: #575757;
+    text-align: center;
+}
+.recipie-post{
+    display:flex;
+    width: 100%;
+}
+.recipie-title{
+    width: 33.3%;
+    background:#ffff;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.recipie-title img{
+    width:100%;
+}
+.achivement-area{
+    padding: 5% 7%;
+}
+
+.achivement{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+}
+.achivement h1{
+    font-weight: revert;
+    font-size: 35px
+}
+.achivement p{
+    font-size:15px;
+    text-align: center;
+}
+.subscribers{
+    width: 33.3%;
+}
+
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    height: 200px;
+    color: #ffff;
+}
+footer h2{
+    color: #575757;
+    padding: 22px;
+}
+footer p{
+    font-size:12px;
+}
